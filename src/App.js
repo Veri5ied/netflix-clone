@@ -1,5 +1,6 @@
 import React from 'react';
 import './App.css';
+import Row from "./components/Rows";
 
 function App() {
   return (
