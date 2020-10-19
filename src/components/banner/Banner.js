@@ -16,7 +16,7 @@ function Banner() {
           Math.floor(Math.random() * request.data.results.length)
         ]
       );
-      return request;
+      return request; 
     }
     fetchData();
   }, []);
@@ -30,7 +30,7 @@ function Banner() {
       className="banner"
       style={{
         backgroundSize: "cover",
-        backgroundImage: `url(https://image.tmdb.org/t/p/original/${movie?.backdrop})`,
+        backgroundImage: `url(https://image.tmdb.org/t/p/original/${movie?.backdrop_path})`,
         backgroundPosition: "center center",
       }}
     >
@@ -45,8 +45,8 @@ function Banner() {
         <h1 className="banner__description">
           {truncate(movie?.overview, 150)}
         </h1>
-          </div>
-          <div className="banner__fadeBottom" />
+      </div>
+      <div className="banner__fadeBottom" />
     </header>
   );
 }
