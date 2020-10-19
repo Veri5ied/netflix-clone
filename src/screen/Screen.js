@@ -1,10 +1,12 @@
 import React from "react";
 import Row from "../components/rows/Rows";
 import requests from "../requests/requests";
+import Banner from "../components/banner/Banner";
 
 function Screen() {
   return (
     <div className="App">
+      <Banner />
       <Row
         title="Netflix Originals"
         fetchUrl={requests.fetchNetflixOriginals}
