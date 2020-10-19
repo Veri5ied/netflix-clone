@@ -5,7 +5,7 @@ import Banner from "../components/banner/Banner";
 
 function Screen() {
   return (
-    <div className="App">
+    <div className="app">
       <Banner />
       <Row
         title="Netflix Originals"
