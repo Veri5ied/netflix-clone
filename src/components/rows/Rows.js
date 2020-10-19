@@ -13,6 +13,8 @@ function Rows({ title, fetchUrl }) {
         }
         fetchData();
     }, [fetchUrl])
+
+    console.log(movies);
     return (
         <div>
             <h3>{title}</h3>
