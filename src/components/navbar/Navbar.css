@@ -6,8 +6,6 @@
 
   z-index: 1;
   padding: 20px;
-  display: flex;
-  justify-content: space-between;
 
   transition-timing-function: ease-in;
   transition: all 0.5s;
