@@ -2,10 +2,12 @@ import React from "react";
 import Row from "../components/rows/Rows";
 import requests from "../requests/requests";
 import Banner from "../components/banner/Banner";
+import Navbar from "../components/navbar/Navbar";
 
 function Screen() {
   return (
     <div className="app">
+      <Navbar />
       <Banner />
       <Row
         title="Netflix Originals"
