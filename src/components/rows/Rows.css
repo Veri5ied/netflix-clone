@@ -2,6 +2,7 @@
   display: flex;
   overflow-y: hidden;
   overflow-x: scroll;
+  scrollbar-width: none;
   padding: 20px;
 }
 
@@ -12,7 +13,7 @@
 .row__poster {
   width: 100%;
   object-fit: contain;
-  max-height: 100px;
+  max-height: 320px;
   margin-right: 10px;
   transition: transform 450ms;
 }
