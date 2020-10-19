@@ -1,12 +1,12 @@
 .row__posters {
   display: flex;
   overflow-y: hidden;
-  overflow-y: scroll;
+  overflow-x: scroll;
   padding: 20px;
 }
 
 .row__posters::-webkit-scrollbar {
-    display: none;
+    display: none !important;
 }
 
 .row__poster {

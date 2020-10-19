@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import axios from "../../requests/axios";
 import "./Rows.css";
 
-const base_url = "https://image.tmbd.org/t/p/original/";
+const base_url = "https://image.tmdb.org/t/p/original/";
 
 function Rows({ title, fetchUrl }) {
   const [movies, setMovies] = useState([]);
@@ -26,7 +26,7 @@ function Rows({ title, fetchUrl }) {
           <img
             key={movie.id}
             className="row__poster"
-            src={`${base_url} ${movie.poster_path}`}
+            src={`${base_url}${movie.poster_path}`}
             alt={movie.name}
           />
         ))}
